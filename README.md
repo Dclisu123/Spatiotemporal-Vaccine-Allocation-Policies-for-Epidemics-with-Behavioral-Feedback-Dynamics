@@ -16,7 +16,7 @@ To get started with the project, you will need to clone this repository to your 
 
 ```
 
-git clone https://github.com/username/Spatiotemporal-Vaccine-Allocation-Policies-for-Epidemics-with-Behavioral-Feedback-Dynamics.git
+git clone https://github.com/dclisu123/Spatiotemporal-Vaccine-Allocation-Policies-for-Epidemics-with-Behavioral-Feedback-Dynamics.git
 ```
 
 Once you have cloned the repository, you will need to install the required packages:
