@@ -216,4 +216,4 @@ for t in range(len(T_list)):
 df = pd.DataFrame(total_data)
 df.to_excel(excel_writer = 'result_vacc_' + str(vacc_level) +'.xlsx')
 
-#plt.scatter(best_obj,best_fairness)
+##plt.scatter(best_obj,best_fairness)
