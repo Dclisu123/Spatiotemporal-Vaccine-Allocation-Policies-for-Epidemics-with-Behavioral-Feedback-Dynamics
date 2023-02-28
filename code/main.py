@@ -83,7 +83,7 @@ def NLP_solve(para_list):
             var_diff_D[j,t] = m.Intermediate( m.sum(var_new_D[j,t+t_vacc-int(feedback_para[2,j])+1: t + t_vacc + 1]) - m.sum(var_new_D[j,t + t_vacc-2*int(feedback_para[2,j]) + 1 : t + t_vacc -int(feedback_para[2,j])+1 ])  )
             var_beta[j,t+1] = m.Intermediate(comp_para[7,j]*(1- 1/(1+m.exp(-(feedback_para[0,j]* var_diff_I[j,t] + feedback_para[1,j]*var_diff_D[j,t])))))
     
-    # for i in range(num_jur):
+    ## for i in range(num_jur):
     #     for j in range(i+1,num_jur):
     #         x_abs_diff = x_abs_diff + m.abs(var_comp[i,-1,7] - var_comp[j,-1,7])
             
