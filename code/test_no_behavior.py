@@ -13,7 +13,7 @@ import pandas as pd
 
 def gini(x):
     # (Warning: This is a concise implementation, but it is O(n**2)
-    # in time and memory, where n = len(x).  *Don't* pass in huge
+    ## in time and memory, where n = len(x).  *Don't* pass in huge
     # samples!)
 
     # Mean absolute difference
